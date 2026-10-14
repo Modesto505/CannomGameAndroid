@@ -259,14 +259,6 @@ classDiagram
   3. Dica: no Android Studio, use o botão de câmera do Running Devices / Emulator para capturar.
 -->
 
-### 🎬 Execução
-
-<div align="center">
-
-<img src="docs/demo.gif" alt="GIF do jogo em execução" width="720">
-
-</div>
-
 ### 🖼️ Telas
 
 <div align="center">
