@@ -265,11 +265,11 @@ classDiagram
   
 | Modo claro | Modo escuro |
 | :---: | :---: |
-| <img src="docs/screenshots/tema-claro.png" alt="Menu no tema claro" width="400"> | <img src="docs/screenshots/tema-escuro.png" alt="Menu no tema escuro" width="400"> |
+| <img src="docs/screenshots/tema-claro.jpeg" alt="Menu no tema claro" width="400"> | <img src="docs/screenshots/tema-escuro.jpeg" alt="Menu no tema escuro" width="400"> |
 
 | Jogo em Execução |
 | :---: |
-| <img src="docs/screenshots/jogo.png" alt="Tela do jogo" width="400"> |
+| <img src="docs/screenshots/jogo.jpeg" alt="Tela do jogo" width="400"> |
 
 </div>
 
