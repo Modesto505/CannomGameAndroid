@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A Activity só exibe o MainActivityFragment (seção 6.4.7 do livro) -->
+<androidx.fragment.app.FragmentContainerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment"
+    android:name="com.deitel.cannongame.MainActivityFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

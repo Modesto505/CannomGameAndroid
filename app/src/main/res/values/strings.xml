@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Cannon Game</string>
+
+    <!-- menu -->
+    <string name="menu_title">CANNON</string>
+    <string name="menu_kicker">GAME  ·  TIRO AO ALVO</string>
+    <string name="menu_subtitle">Toque na tela para mirar e atirar. Destrua os 9 alvos antes que o tempo acabe.</string>
+    <string name="stat_record">RECORDE</string>
+    <string name="stat_wins">VITÓRIAS</string>
+    <string name="stat_games">PARTIDAS</string>
+    <string name="stat_none">—</string>
+    <string name="play">Jogar</string>
+    <string name="theme_label">TEMA</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+    <string name="theme_system">Sistema</string>
+
+    <!-- jogo -->
+    <string name="hud_time">TEMPO</string>
+    <string name="hud_targets">ALVOS</string>
+
+    <!-- diálogo de fim de jogo -->
+    <string name="win">Vitória!</string>
+    <string name="lose">Tempo esgotado</string>
+    <string name="dialog_tag">FIM DE JOGO</string>
+    <string name="dialog_shots">TIROS</string>
+    <string name="dialog_time">TEMPO</string>
+    <string name="new_record">Novo recorde!</string>
+    <string name="record_format">Recorde: %.1f s</string>
+    <string name="reset_game">Jogar de novo</string>
+    <string name="back_to_menu">Menu</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FrameLayout que contém a CannonView (seção 6.4.8 do livro).
+     O nome da view customizada precisa ser o nome COMPLETO da classe. -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.deitel.cannongame.CannonView
+        android:id="@+id/cannonView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>

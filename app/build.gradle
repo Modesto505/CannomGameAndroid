@@ -1,0 +1,36 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.deitel.cannongame'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.deitel.cannongame"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // Alinha todas as versões do Kotlin que vêm "de carona" nas bibliotecas
+    // AndroidX (corrige o erro "Duplicate class kotlin.collections.jdk8...")
+    implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.22')
+
+    // AppCompatActivity + Fragment (versão atual das antigas android.support.*)
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+}
